@@ -1,4 +1,2 @@
 #!/bin/bash
-yum install -y httpd
 yum install -y tomcat8
-cp ../build/MyAwsWeb.war /usr/share/tomcat8/webapps/

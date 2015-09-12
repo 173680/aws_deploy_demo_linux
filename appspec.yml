@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+  - source: /build/MyAwsWeb.war
+    destination: /usr/share/tomcat8/webapps/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
